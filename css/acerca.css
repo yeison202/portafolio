@@ -1,0 +1,46 @@
+.DatosPersonales{
+    width: 70vh;
+    height: 35vh;
+    position: absolute;
+    top: 58%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.datos1{
+    font-family: 'Berkshire Swash', sans-serif;
+    color: rgba(3, 10, 3, 0.945);
+    position: absolute;
+    top: 20%;
+    left: 0%;
+   font-size: 90%;  
+ 
+    
+}
+.datos2{
+    font-family: 'Berkshire Swash', sans-serif;
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 90%;  
+ 
+  
+}
+.logos{
+    width: 70vh;
+    height: 35vh;
+    position: absolute;
+    top: 165%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.cv{
+    text-align: center;
+    width: 40%;
+    height: 20%;
+    border-radius: 5%;
+    background: rgb(103, 97, 130);
+}
+a{
+    text-decoration: none;
+}

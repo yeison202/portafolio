@@ -1,0 +1,78 @@
+.contacto{position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../imagenes/foto.png);
+    background-size: cover;
+    background-position: center center;
+}
+    .formulario{
+        width: 80%;
+    height: 35vh;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    }
+    .contactos{
+        font-size: 2.5rem;
+        font-family: 'Berkshire Swash', sans-serif;
+        color: black;
+        width: 80vh;
+        height: 35vh;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: fit-content;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-bottom: 15px;
+      }
+      
+      textarea {
+        resize: vertical;
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #3e8e41; /* Darker green */
+      }
+      
+      /* You can add more styles here! */
+      
+      /* Example: Styling hidden inputs */
+      
+      input[type="hidden"] {
+        display: none;
+      }

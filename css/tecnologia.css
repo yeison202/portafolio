@@ -1,0 +1,86 @@
+.tecnologia{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../imagenes/foto.png);
+    background-size: cover;
+    background-position: center center;
+} 
+.TD{
+    font-size: 2.5rem;
+    font-family: 'Berkshire Swash', sans-serif;
+    color: black;
+    width: 80vh;
+    height: 35vh;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.container{
+    width: 40vh;
+    height: 35vh;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%)
+}
+.container .skill {
+margin: 20px 0;
+}
+.container .skill p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .skill .progress{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #999;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+.container .skill .progress::before{
+    content: '';
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background: #0280fe;
+}
+
+
+
+.container2{
+    width: 40vh;
+    height: 35vh;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%)
+}
+.container2 .skill {
+margin: 20px 0;
+}
+.container2 .skill p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container2 .skill .progress{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #999;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+.container2 .skill .progress::before{
+    content: '';
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background: #0280fe;
+}
